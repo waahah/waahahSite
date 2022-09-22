@@ -1,0 +1,59 @@
+<%
+var separator = theme.title_join_string || theme.tab_title_separator
+var title = page.title ? [page.title, config.title].join(separator) : config.title
+var keywords = page.keywords || config.keywords
+if (keywords instanceof Array) {
+  keywords = keywords.join(',')
+}
+var description = page.description || page.excerpt || (is_post() && page.content) || config.description
+if (description) {
+  description = escape_html(strip_html(description).substring(0, 200).trim()).replace(/\n/g, ' ')
+}
+var ogImage = page.og_img || page.index_img
+var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_graph)
+%>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="<%= url_for(theme.apple_touch_icon) %>">
+  <link rel="icon" href="<%= url_for(theme.favicon) %>">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <% if (theme.force_https) { %>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <% } %>
+  <meta name="theme-color" content="<%= theme.color.navbar_bg_color %>">
+  <meta name="author" content="<%= page.author || config.author %>">
+  <meta name="keywords" content="<%= keywords %>">
+  <% if (theme.open_graph.enable) { %>
+    <%- open_graph(ogConfig) %>
+  <% } else { %>
+    <meta name="description" content="<%= description %>">
+  <% } %>
+  <% if (theme.custom_head) { %>
+    <%- theme.custom_head %>
+  <% } %>
+  <title><%= title %></title>
+
+  <%- partial('_partial/css.ejs') %>
+  <%- export_config() %>
+  <%- js_ex(theme.static_prefix.internal_js, 'utils.js') %>
+  <%- js_ex(theme.static_prefix.internal_js, 'color-schema.js') %>
+
+  <!-- 爆炸红心效果 -->
+  <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1100; pointer-events: none;" ></canvas> 
+  <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+  <script type="text/javascript" src="/js/firework.js"></script>
+
+  <!-- 打字礼花及震动特效 -->
+  <div id="append_parent"></div><div id="ajaxwaitid"></div>
+  <script type="text/javascript" src="/js/activate-power-mode.js"></script>
+  <script>
+	POWERMODE.colorful = true; <!-- 打字礼花 -->
+	POWERMODE.shake = true; <!-- 打字震动 -->
+	document.body.addEventListener('input',POWERMODE);
+  </script>
+
+
+
+</head>
