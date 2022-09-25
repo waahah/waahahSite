@@ -1,2 +1,2 @@
-# waahahSite
-Automate the deployment of my blog after submission
+# *waahahSite*
+*Automate the deployment of my website after submission*
