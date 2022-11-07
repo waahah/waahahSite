@@ -47,3 +47,8 @@ wormhole:
   menu: '虫洞'
   title: '虫洞'
   subtitle: '十年之约'
+
+login:
+  menu: '登录'
+  title: '登录'
+  subtitle: '管理员登录'
