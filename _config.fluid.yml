@@ -255,7 +255,7 @@ web_analytics:  # 网页访问统计
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
   # See: https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376
-  baidu:
+  baidu: 79876be6988867ae9c0aed3f5c7d23ef
 
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
@@ -357,6 +357,7 @@ navbar:
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "wormhole", link: "https://www.foreverblog.cn/go.html", icon: "iconfont icon-rss" }
+    - { key: "login", link: "/admin/", icon: "iconfont icon-addrcard" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
