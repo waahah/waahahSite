@@ -15,3 +15,4 @@ Disallow: /fancybox/
 # 记得替换成你的域名
 Sitemap: /sitemap.xml
 Sitemap: /baidusitemap.xml
+
