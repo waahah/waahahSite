@@ -26,6 +26,11 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3",
-    "live2d-widget-model-haru": "^1.0.5"
+    "live2d-widget-model-haru": "^1.0.5",
+    "simple-oauth2": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "@types/simple-oauth2": "^4.1.0"
   }
 }
