@@ -358,15 +358,14 @@ navbar:
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "wormhole", link: "https://www.foreverblog.cn/go.html", icon: "iconfont icon-rss" }
     - {
-      key: 'user',
-      icon: 'icon-users',
+      key: 'users',
+      icon: 'iconfont icon-users',
       submenu: [
-        { key: 'register', link: 'https://waline.waahah.xyz/ui/register' },
-        { key: 'login', link: 'https://waline.waahah.xyz/ui/login' },
-        { key: 'admin', link: '/admin/', icon: "icon-addrcard" }
+        { key: 'register', link: 'https://waline.waahah.xyz/ui/register' icon: "iconfont icon-addrbook" },
+        { key: 'login', link: 'https://waline.waahah.xyz/ui/login' icon: "iconfont icon-addrbook" },
+        { key: 'admin', link: '/admin/', icon: "iconfont icon-addrcard" }
       ]
   }
-    - { key: "user", link: "/admin/", icon: "iconfont icon-addrcard" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
