@@ -357,12 +357,12 @@ navbar:
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "wormhole", link: "https://www.foreverblog.cn/go.html", icon: "iconfont icon-rss" }
-    - {
+    - { 
         key: 'users',
         icon: 'iconfont icon-users',
         submenu: [
-          { key: 'register', link: 'https://waline.waahah.xyz/ui/register' icon: "iconfont icon-addrbook" },
-          { key: 'login', link: 'https://waline.waahah.xyz/ui/login' icon: "iconfont icon-addrbook" },
+          { key: 'register', link: 'https://waline.waahah.xyz/ui/register', icon: "iconfont icon-addrbook" },
+          { key: 'login', link: 'https://waline.waahah.xyz/ui/login', icon: "iconfont icon-addrbook" },
           { key: 'admin', link: '/admin/', icon: "iconfont icon-addrcard" }
         ]
     }
