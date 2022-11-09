@@ -48,17 +48,22 @@ wormhole:
   title: '虫洞'
   subtitle: '十年之约'
 
+users:
+  menu: '用户'
+  title: '用户'
+  subtitle: '用户'
+
 register:
-  menu: '注册'
+  submenu: '注册'
   title: '注册'
   subtitle: '用户注册'
 
 login:
-  menu: '登录'
+  submenu: '登录'
   title: '登录'
   subtitle: '用户登录'
 
 admin:
-  menu: '后台'
+  submenu: '后台'
   title: '后台'
   subtitle: '管理员登录'
