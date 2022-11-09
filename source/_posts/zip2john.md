@@ -1,5 +1,5 @@
 ---
-title: push本地代码到Github出错
+title: john破解zip密码
 date: 2022-11-9 18:59:28
 tags: [zip, zip2john]
 categories: [zip, zip2john]
@@ -9,8 +9,7 @@ categories: [zip, zip2john]
 ### 前言
 **zip2john爆破zip文件**
 
-
-步骤：
+> John the Ripper 目前可用于 Unix、macOS、Windows、DOS、BeOS和 OpenVMS 的许多发行版。它的主要目的是检测弱密码。除了在各种 Unix 风格中最常见的几种 crypt(3) 密码散列类型外，还支持 Kerberos/AFS 和 Windows LM 散列。
 
 #### 1. 解压john-1.9.0-jumbo-1-win64.rar到一个路径：
 
@@ -64,3 +63,7 @@ $ .\john D:\Temp\test\password2.txt --show
 ![](https://s2.loli.net/2022/11/09/PyRcxMqJiY82HBm.jpg)
 
 <p></p>
+
+#### 更多
+
+- 下载地址：[https://download.openwall.net/pub/projects/john/contrib/windows/](https://download.openwall.net/pub/projects/john/contrib/windows/)
