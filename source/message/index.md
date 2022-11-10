@@ -1,5 +1,5 @@
 ---
-title: message
+title: 留言板
 date: 2022-11-09 22:19:25
 comment: 'waline'
 banner_img_height: 30
