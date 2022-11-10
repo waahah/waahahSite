@@ -43,6 +43,10 @@ links:
   title: 友链
   subtitle: 友情链接
 
+message:
+  title: 留言
+  subtitle: 留言板
+
 wormhole:
   menu: '虫洞'
   title: '虫洞'
