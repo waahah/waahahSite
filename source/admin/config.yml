@@ -11,13 +11,34 @@ public_folder: 'images' # The src attribute for uploaded media will begin with i
 # This line should *not* be indented
 publish_mode: editorial_workflow
 
-collections:
-  - name: 'Post' # Used in routes, e.g., /admin/collections/blog
-    label: 'Post' # Used in the UI
-    folder: 'source/_posts' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+collections:      # https://www.netlifycms.org/docs/configuration-options/#collections
+  - name: "posts" # 在路由中使用，例如：/admin/collections/blog。
+    label: "Post" # 在用户界面中使用
+    folder: "source/_posts" # 存储文件的文件夹的路径。
+    create: true # 允许用户在这个集合中创建新的文件。
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: 'Title', name: 'title', widget: 'string'}
-      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
-      - {label: 'Body', name: 'body', widget: 'markdown'}
+    fields: # 每份文件的字段，通常是前面的内容。
+      - {label: "顶部图", name: "banner_img", widget: "image", required: false} 
+      - {label: "文章封面", name: "index_img", widget: "image", required: false} 
+      - {label: "文章排序", name: "sticky", widget: "number", required: false}
+      - {label: "标题", name: "title", widget: "string"}
+      - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
+      - {label: "更新日期", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", dateFormat: "YYYY-MM-DD", timeFormat: "HH:mm:ss", required: false}
+      - {label: "标签", name: "tags", widget: "list", required: false}
+      - {label: "分类", name: "categories", widget: "list", required: false}
+      - {label: "关键词", name: "keywords", widget: "list", required: false}
+      - {label: "摘要", name: "excerpt", widget: "list", required: false}
+      - {label: "内容", name: "body", widget: "markdown", required: false}
+      - {label: "永久链接", name: "permalink", widget: "string", required: false}
+      - {label: "评论", name: "comments", widget: "boolean", default: true, required: false}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "source/about/index.md"
+        name: "about"
+        label: "关于"
+        fields:
+          - {label: "标题", name: "title", widget: "string"}
+          - {label: "内容", name: "body", widget: "markdown", required: false}
+          - {label: "评论", name: "comments", widget: "boolean", default: true, required: false}
