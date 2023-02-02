@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: waahah
-subtitle: '三尺微命，一介书生'
-description: 'waahah的小巢 个人博客'
-keywords: 'Python, Javascript, PHP, Vue, Node, Typescript, 爬虫, JavaWeb, waahah, 博客'
+title: 无名小站
+subtitle: '『青春总会留下点什么吧？留下什么，我们就变成什么样的大人。』—— 蓝色大门'
+description: 'waahah的生活日记'
+keywords: 'Python, Javascript, PHP, Vue, Node, Typescript, 爬虫, JavaWeb, waahah, 博客, 生活点滴及趣事'
 author: waahah
 language: zh-CN
 timezone: 'Asia/Shanghai'
