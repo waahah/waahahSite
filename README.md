@@ -1,5 +1,5 @@
 # *waahahSite*
-*Git提交后自动部署我的个人博客到Vercel*
+*Git 提交后自动部署我的个人博客到 Vercel*
 
 ### Built with
 ```cmd
