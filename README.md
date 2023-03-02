@@ -1,5 +1,5 @@
 # *waahahSite*
-*Git 提交后自动部署我的个人博客到 Vercel*
+*Git 提交后自动部署我的个人博客到 Vercel 并添加netlifyCms为后台编辑组件*
 
 ### Built with
 ```cmd
