@@ -68,6 +68,11 @@
       <script>
 			path2 = window.location.pathname;
 			document.getElementsByClassName("waline-comment-count")[0].attributes[1].value=path2;
+      import { commentCount } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      commentCount({
+        'https://waahah.xyz',
+        path2
+      });
 		</script>
     <% } %>
   <% } %>
