@@ -66,8 +66,8 @@
         <span class="waline-comment-count" data-path= "" />条
       </span>
       <script>
-			path2 = window.location.pathname
-			document.getElementsByClassName("waline-comment-count").attributes[1]=path2;
+			path2 = window.location.pathname;
+			document.getElementsByClassName("waline-comment-count")[0].attributes[1].value=path2;
 		</script>
     <% } %>
   <% } %>
