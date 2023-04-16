@@ -63,8 +63,12 @@
       </span>
       <span class="post-meta mr-2">
         <i class="iconfont icon-comment" aria-hidden="true"></i>
-        <span class="waline-comment-count" data-path= <%= window.location.pathname %> />条
+        <span class="waline-comment-count" data-path= "" />条
       </span>
+      <script>
+			path2 = window.location.pathname
+			document.getElementsByClassName("waline-comment-count").attributes[1]=path2;
+		</script>
     <% } %>
   <% } %>
 </div>
