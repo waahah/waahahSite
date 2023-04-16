@@ -1123,8 +1123,8 @@ static_prefix:
   valine: https://cdn.jsdelivr.net/npm/valine@1/dist/
 
   #与v1版相兼容https://cdn.jsdelivr.net/npm/@waline/client@1/dist/Waline.min.js
-  #无法访问https://lib.baomitu.com/waline/2.6.4/
-  waline: https://unpkg.com/@waline/client@v2/dist/waline.mjs
+  #无法访问https://lib.baomitu.com/waline/2.6.3/
+  waline: https://lib.baomitu.com/waline/2.6.3/
 
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@1/dist/
 
