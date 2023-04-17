@@ -65,17 +65,18 @@
         <i class="iconfont icon-comment" aria-hidden="true"></i>
         <span class="waline-comment-count" data-path= "" />条
       </span>
-      <script type="module">
-        import { commentCount } from 'https://unpkg.com/@waline/client@v2/dist/comment.mjs';
-        commentCount({
-          'https://waahah.xyz',
-          window.location.pathname
-        });
-      </script>
       <script>
 			path2 = window.location.pathname;
 			document.getElementsByClassName("waline-comment-count")[0].attributes[1].value=path2;
 		</script>
+    <script type="module">
+        import { commentCount } from 'https://unpkg.com/@waline/client@v2/dist/comment.mjs';
+        commentCount({
+          serverURL: "https://waahah.xyz",
+          path: window.location.pathname,
+          selector: ".waline-pageview-count"
+        });
+      </script>
     <% } %>
   <% } %>
 </div>
