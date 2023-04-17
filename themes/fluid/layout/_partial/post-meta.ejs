@@ -64,12 +64,12 @@
       <span class="post-meta mr-2">
         &nbsp
         <i class="iconfont icon-users" aria-hidden="true"></i>
-        <span class="waline-pageview-count" ></span>" 人&nbsp "
+        <span class="waline-pageview-count" ></span> &nbsp人
       </span>
       <script type="module">
         import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
         pageviewCount({
-          serverURL: 'https://waahah.xyz',
+          serverURL: 'waahah.xyz',
           path: window.location.pathname,
           // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
           // selector: 'waline-pageview-count',
@@ -80,11 +80,12 @@
       <span class="post-meta mr-2">
         &nbsp
         <i class="iconfont icon-comment" aria-hidden="true"></i>
-        <span class="waline-comment-count" data-path= "" ></span>" 条&nbsp "
+        <span class="waline-comment-count" data-path= "" ></span> &nbsp条
       </span>
       <script>
 			  path2 = window.location.pathname;
 			  document.getElementsByClassName("waline-comment-count")[0].attributes[1].value=path2;
+        document.getElementsByClassName("waline-pageview-count")[0].attributes[1].value=path2;
 		  </script>
     <% } %>
   <% } %>
