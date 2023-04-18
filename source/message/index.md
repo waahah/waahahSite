@@ -7,7 +7,8 @@ banner_mask_alpha: 0
 ---
 
 
-
+<html>
+<head>
   <style>
   @media screen and (max-width:600px){#form_wrap:before,#form_wrap:after{display:none!important}}@media screen and (min-width:600px){#form_wrap form img{margin:0 auto 0}
 body, div, h1,h2, form, fieldset, footer,p {
@@ -81,6 +82,7 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
     background-color: #555;
   }
 </style>
+</head>
 <div style="margin-top: -10px; position:relative;">
     <div id="wrap">
         <div id="form_wrap" style="width:inherit;">
@@ -95,3 +97,4 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 
 <script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
 
+</html>
