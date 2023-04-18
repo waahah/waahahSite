@@ -27,11 +27,11 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 		position:absolute;
 		bottom:128px;left:0px;
 		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png');
-		width:530px;height: 316px;}
+		width:auto;height: 316px;}
 	#form_wrap:after {content:"";position:absolute;
 		bottom:0px;left:0;
 		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png');
-		width:530px;height: 260px; }
+		width:auto;height: 260px; }
 	#form_wrap.hide:after, #form_wrap.hide:before {display:none; }
 	#form_wrap:hover {height:806px;top:-30px;}
 	form {background:#f7f2ec url('https://101.43.39.125/HexoFiles/images/letter_bg.png'); 
@@ -78,7 +78,7 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
   }
 </style>
 <div style="margin-top: -10px" position:relative;">
-	<div id="wrap">
+	<div id="wrap" style="width:inherit;">
 		<div id='form_wrap' style="width:inherit;">
 			<form style="width:inherit;">
 				<img src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
