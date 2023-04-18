@@ -10,7 +10,11 @@ banner_mask_alpha: 0
 <html>
 <head>
   <style>
-  @media screen and (max-width:600px){#form_wrap:before,#form_wrap:after{display:none!important}}@media screen and (min-width:600px){#form_wrap form img{margin:0 auto 0}
+  @media screen and (max-width:600px){
+    #form_wrap:before,#form_wrap:after{display:none!important}
+  }
+  @media screen and (min-width:600px){#form_wrap form img{margin:0 auto 0}
+  }
 body, div, h1,h2, form, fieldset, footer,p {
     margin: 0; padding: 0; border: 0; outline: none;
 }
