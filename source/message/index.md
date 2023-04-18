@@ -6,7 +6,9 @@ banner_img_height: 100
 banner_mask_alpha: 0
 ---
 
-
+<!DOCTYPE HTML>
+<html>
+<head>
 <style>
 body, div, h1,h2, form, fieldset, footer,p {
 	margin: 0; padding: 0; border: 0; outline: none;
@@ -28,17 +30,17 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 	#form_wrap:before {content:"";
 		position:absolute;
 		bottom:128px;left:0px;
-		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png');
-		width:inherit;height: 316px;}
+		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png') no-repeat;
+		width:100%;height: 316px;}
 	#form_wrap:after {content:"";position:absolute;
 		bottom:0px;left:0;
-		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png');
-		width:inherit;height: 260px; }
+		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png') no-repeat;
+		width:100%;height: 260px; }
 	#form_wrap.hide:after, #form_wrap.hide:before {display:none; }
 	#form_wrap:hover {height:806px;top:-30px;}
-	form {background:#f7f2ec url('https://101.43.39.125/HexoFiles/images/letter_bg.png'); 
+	form {background:#f7f2ec url('https://101.43.39.125/HexoFiles/images/letter_bg.png') no-repeat; 
 		position:relative;top:200px;overflow:hidden;
-		height:200px;width:400px;margin:0px auto;padding:20px; 
+		height:200px;width:100%;margin:0px auto;padding:20px; 
 		border: 1px solid #fff;
 		border-radius: 3px; 
 		-moz-border-radius: 3px; -webkit-border-radius: 3px;
@@ -79,16 +81,19 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
     background-color: #555;
   }
 </style>
+<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+</head>
 <div style="margin-top: -10px; position:relative;">
 	<div id="wrap" style="width:inherit;">
-		<div id='form_wrap'>
-			<form>
+		<div id='form_wrap' style="width:inherit;">
+			<form style="width:inherit;">
 				<img src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
 				<p >Hello ,</p>
 				<label for="email"> </label>
 		If there's anything you want to say, please send a comment as it would be much appreciated
+		</form>
 		</div>
 	</div>
 </div>
 
-<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+</html>
