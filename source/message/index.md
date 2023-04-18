@@ -89,4 +89,4 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 	</div>
 </div>
 
-<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+<script src="https://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
