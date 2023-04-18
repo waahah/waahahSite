@@ -38,7 +38,7 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 		width:100%;height: 260px; }
 	#form_wrap.hide:after, #form_wrap.hide:before {display:none; }
 	#form_wrap:hover {height:806px;top:-30px;}
-	form {background:#f7f2ec url('https://101.43.39.125/HexoFiles/images/letter_bg.png') no-repeat; 
+	form {background:#f7f2ec url('https://101.43.39.125/HexoFiles/images/letter_bg.png'); 
 		position:relative;top:200px;overflow:hidden;
 		height:200px;width:100%;margin:0px auto;padding:20px; 
 		border: 1px solid #fff;
