@@ -10,11 +10,7 @@ banner_mask_alpha: 0
 <html>
 <head>
   <style>
-  @media screen and (max-width:600px){
-    #form_wrap:before,#form_wrap:after{display:none!important}
-  }
-  @media screen and (min-width:600px){#form_wrap form img{margin:0 auto 0}
-  }
+  
 body, div, h1,h2, form, fieldset, footer,p {
     margin: 0; padding: 0; border: 0; outline: none;
 }
@@ -84,6 +80,16 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
             #form_wrap:hover input:hover[type=submit] {color:#435c70;}
   .top-banner {
     background-color: #555;
+  }
+    @media screen and (max-width:600px) {
+    #form_wrap:before,#form_wrap:after{
+    display:none!important
+    }
+  }
+  @media screen and (min-width:600px){
+    #form_wrap form img{
+    margin:0 auto 0;
+    }
   }
 </style>
 </head>
