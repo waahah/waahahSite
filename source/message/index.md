@@ -7,11 +7,6 @@ banner_mask_alpha: 0
 ---
 
 <style>
-@media screen and (min-width:500px){
-	#pic {
-	width:inherit;
-	}
-}
 body, div, h1,h2, form, fieldset, footer,p {
 	margin: 0; padding: 0; border: 0; outline: none;
 }
@@ -83,8 +78,8 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
   }
 </style>
 <div style="margin-top: -10px" position:relative;">
-	<div id="wrap" style="width:inherit;">
-		<div id='form_wrap' style="width:inherit;">
+	<div id="wrap">
+		<div id='form_wrap'>
 			<form style="width:inherit;">
 				<img id="pic" src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
 				<p >Hello ,</p>
