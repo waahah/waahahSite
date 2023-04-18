@@ -6,7 +6,7 @@ banner_img_height: 100
 banner_mask_alpha: 0
 ---
 
-<!DOCTYPE HTML>
+
 <html>
 <head>
 <style>
@@ -30,11 +30,11 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 	#form_wrap:before {content:"";
 		position:absolute;
 		bottom:128px;left:0px;
-		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png') no-repeat;
+		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png');background-repeat: no-repeat;
 		width:100%;height: 316px;}
 	#form_wrap:after {content:"";position:absolute;
 		bottom:0px;left:0;
-		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png') no-repeat;
+		background:url('https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png');background-repeat: no-repeat;
 		width:100%;height: 260px; }
 	#form_wrap.hide:after, #form_wrap.hide:before {display:none; }
 	#form_wrap:hover {height:806px;top:-30px;}
@@ -81,7 +81,6 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
     background-color: #555;
   }
 </style>
-<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
 </head>
 <div style="margin-top: -10px; position:relative;">
 	<div id="wrap" style="width:inherit;">
@@ -95,5 +94,5 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
 		</div>
 	</div>
 </div>
-
+<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
 </html>
