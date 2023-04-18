@@ -77,11 +77,11 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
     background-color: #555;
   }
 </style>
-<div style="margin-top: -10px" position:relative;">
+<div style="margin-top: -10px" >
 	<div id="wrap">
-		<div id='form_wrap'>
-			<form style="width:inherit;">
-				<img id="pic" src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
+		<div id='form_wrap' >
+			<form >
+				<img src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
 				<p >Hello ,</p>
 				<label for="email"> </label>
 		If there's anything you want to say, please send a comment as it would be much appreciated
