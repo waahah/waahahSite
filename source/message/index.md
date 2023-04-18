@@ -7,9 +7,9 @@ banner_mask_alpha: 0
 ---
 
 <style>
-@media screen and (min-width:600px){
-	#article-container img{
-	margin:0 auto 0
+@media screen and (min-width:500px){
+	#pic {
+	width:inherit;
 	}
 }
 body, div, h1,h2, form, fieldset, footer,p {
@@ -83,10 +83,10 @@ h1 {margin-bottom:20px; text-align:center;font-size:48px; text-shadow:0 1px 0 #e
   }
 </style>
 <div style="margin-top: -10px" position:relative;">
-	<div id="wrap" style="width:inherit;">
-		<div id='form_wrap'>
+	<div id="wrap" >
+		<div id='form_wrap' style="width:inherit;">
 			<form style="width:inherit;">
-				<img src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
+				<img id="pic" src='https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg' height=245px/>
 				<p >Hello ,</p>
 				<label for="email"> </label>
 		If there's anything you want to say, please send a comment as it would be much appreciated
