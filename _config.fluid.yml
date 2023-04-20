@@ -1114,7 +1114,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: "<div class='custom mx-auto'><hr> <p> 欢迎在下方留言互换友链，按如下格式提供信息：</p> <hr> <div class='admonition note'> <p class='admonition-title'> <i class='iconfont icon-pen'></i> &nbsp 友链格式</p> <ul> <li>网站名称：无名小站</li> <li>网站链接：https://www.waahah.xyz</li> <li> 网站简介：waahah的小巢</li> <li>网站头像：https://waahah.xyz/img/avatar.png </li> </ul> </div> <div class='admonition-blue note'> <p class='admonition-title-blue'> <i class='iconfont icon-plan'></i> &nbsp 申请要求</p> <ul> <li>网站使用 HTTPS 协议</li> <li>文章内容符合社会主义核心价值观</li> <li>网站内容持续更新且可以稳定访问</li> </ul> </div> </div>"
+    content: "<hr> <p> 欢迎在下方留言互换友链，按如下格式提供信息：</p> <hr> <div class='admonition note'> <p class='admonition-title'> <i class='iconfont icon-pen'></i> &nbsp 友链格式</p> <ul> <li>网站名称：无名小站</li> <li>网站链接：https://www.waahah.xyz</li> <li> 网站简介：waahah的小巢</li> <li>网站头像：https://waahah.xyz/img/avatar.png </li> </ul> </div> <div class='admonition-blue note'> <p class='admonition-title-blue'> <i class='iconfont icon-plan'></i> &nbsp 申请要求</p> <ul> <li>网站使用 HTTPS 协议</li> <li>文章内容符合社会主义核心价值观</li> <li>网站内容持续更新且可以稳定访问</li> </ul> </div>"
 
   # 评论插件
   # Comment plugin
