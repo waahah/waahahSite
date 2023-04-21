@@ -31,20 +31,80 @@ links:
   banner_img_height: 60
   items:
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      title: "属于CYY自己的世界",
+      intro: "致力于系统结构方向科研",
+      link: "https://blog.cyyself.name/",
+      avatar: "https://blog.cyyself.name/wp-includes/images/w-logo-blue-white-bg.png"
     }
     - {
-      title: "Fluid Docs",
-      intro: "主题使用指南",
-      link: "https://hexo.fluid-dev.com/docs/",
-      avatar: "/img/favicon.png"
+      title: "阮一峰的网络日志",
+      intro: "记录每周值得分享的科技内容",
+      link: "https://www.ruanyifeng.com/blog/",
+      avatar: "https://www.ruanyifeng.com/favicon.ico"
     }
     - {
-      title: "Fluid Repo",
-      intro: "主题 GitHub 仓库",
-      link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      avatar: "/img/favicon.png"
+      title: "静觅",
+      intro: "崔庆才的个人站点",
+      link: "https://cuiqingcai.com/",
+      avatar: "https://cuiqingcai.com/images/avatar.png"
+    }
+    - {
+      title: "又见苍岚",
+      intro: "蓝天依旧，明眸如初",
+      link: "https://www.zywvvd.com/",
+      avatar: "https://www.zywvvd.com/image/avatar.png"
+    }
+    - {
+      title: "Sarakale",
+      intro: "星轮流转，唯心不变…",
+      link: "https://www.sarakale.top/blog/",
+      avatar: "https://npm.elemecdn.com/sarakale-assets@v1/favicon.ico"
+    }
+    - {
+      title: "廿壴博客",
+      intro: "探讨WEB技术.交流日常生活.感悟短暂人生.分享简单快乐",
+      link: "https://blog.ganxb2.com/",
+      avatar: "https://blog.ganxb2.com/img/avatar.png"
+    }
+    - {
+      title: "fdChen的掉发收集箱",
+      intro: "做个俗人 贪财好色",
+      link: "https://blog.fdchen.host/",
+      avatar: "https://raw.githubusercontent.com/ccsemicircle/cdn/v2.0.4/favicon.png"
+    }
+    - {
+      title: "Black Flies",
+      intro: "When nothing goes right,just go left.",
+      link: "https://www.yyyzyyyz.cn/",
+      avatar: "https://npm.elemecdn.com/imgscdn/img/202111191951780.JPG"
+    }
+    - {
+      title: "程序猿DD",
+      intro: "自由程序员,专注基础平台架构的研究与建设",
+      link: "https://blog.didispace.com/",
+      avatar: "https://blog.didispace.com/images/favicon.ico"
+    }
+    - {
+      title: "掉发收集站—秃秃日记",
+      intro: "生活、学习、笔记、分享",
+      link: "https://wangwangyz.site/",
+      avatar: "https://wangwangyz.site/my/static/cropped-%e7%ab%99%e7%82%b9logo.png"
+    }
+    - {
+      title: "贰猹的小窝",
+      intro: "用这生命中的每一秒，给自己一个不后悔的未来",
+      link: "https://noionion.top/",
+      avatar: "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"
+    }
+    - {
+      title: "Akilarの糖果屋",
+      intro: "期待您的光临！",
+      link: "https://akilar.top/",
+      avatar: "https://npm.elemecdn.com/akilar-friends@latest/avatar/akilar.top.jpg"
+    }
+    - {
+      title: "上冬十二",
+      intro: "到最后，竟庆幸于夕阳仍留在身上",
+      link: "https://oragekk.me/",
+      avatar: "https://oragekk.me/logo.svg"
     }

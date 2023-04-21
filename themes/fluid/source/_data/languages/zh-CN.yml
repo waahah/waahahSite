@@ -49,7 +49,7 @@ message:
 
 wormhole:
   menu: '虫洞'
-  title: '虫洞'
+  title: '十年之约'
   subtitle: '十年之约'
 
 users:
@@ -67,3 +67,19 @@ login:
 admin:
   title: '后台'
   subtitle: '管理员登录'
+
+friendcircle:
+  title: '友圈'
+  subtitle: '朋友圈'
+
+friends:
+  title: '动态'
+  subtitle: '动态'
+
+send:
+  title: '传送阵'
+  subtitle: '传送阵'
+
+travellings:
+  title: '开往'
+  subtitle: '开往'

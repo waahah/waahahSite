@@ -356,8 +356,24 @@ navbar:
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { 
+        key: 'friendcircle',
+        icon: 'iconfont icon-codepen-fill',
+        submenu: [
+          { key: 'links', link: '/links/', icon: "iconfont icon-link-fill" },
+          { key: 'friends', link: '/friends/', icon: "iconfont icon-slack-fill" }
+        ]
+    }
     - { key: "message", link: "/message/", icon: "iconfont icon-brush" }
-    - { key: "wormhole", link: "https://www.foreverblog.cn/go.html", icon: "iconfont icon-rss" }
+    - { 
+        key: 'send',
+        icon: 'iconfont icon-map',
+        submenu: [
+          { key: 'wormhole', link: 'https://www.foreverblog.cn/go.html', icon: "iconfont icon-pinterest-fill" },
+          { key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-tumblr-fill" },
+          { key: 'BlogFinder', link: 'https://bf.zzxworld.com/', icon: "iconfont icon-facebook-fill" }
+        ]
+    }
     - { 
         key: 'users',
         icon: 'iconfont icon-users',
@@ -981,11 +997,12 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com/waahah", tip: "GitHub" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/waahah", tip: "GitHub主页" }
     - { class: "iconfont icon-weibo-fill", link: "https://weibo.com/waahah", tip: "微博" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
     - { class: "iconfont icon-qq-fill", qrcode: "/img/qq.png" }
     - { class: "iconfont icon-gitee-fill", link: "https://gitee.com/waahah", tip: "Gitee" }
+    - { class: "iconfont icon-gitlab-fill", link: "https://gitlab.com/waahah", tip: "Gitlab" }
     - { class: "iconfont icon-mail", link: "mailto:3180800798@qq.com", tip: "E-mail" }
     - { class: "iconfont icon-zhihu-fill", link: "https://www.zhihu.com/people/suo-lian-jie-yi-han-68", tip: "知乎" }
     - { class: "iconfont icon-copyright", link: "https://blog.csdn.net/qq_60011657", tip: "CSDN" }
