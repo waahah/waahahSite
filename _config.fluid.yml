@@ -237,10 +237,15 @@ font:
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
+  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxingxing.js  #鼠标跟随小星星
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
-custom_css: /css/mac.css
+custom_css:
+  - /css/mac.css #mac代码块
+  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/daziyanse.css #头部打字机颜色
+  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
+  - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
 
 # 网页访问统计
 # Analysis of website visitors
@@ -260,12 +265,12 @@ web_analytics:  # 网页访问统计
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
   # See: https://developers.google.com/analytics/devguides/collection/analyticsjs
-  google:
+  google:UA-265548584-1
 
   # Google gtag.js 的媒体资源 ID
   # Google gtag.js GA_MEASUREMENT_ID
   # See: https://developers.google.com/analytics/devguides/collection/gtagjs/
-  gtag:
+  gtag:G-74HW8MB9TN
 
   # 腾讯统计的 H5 App ID，开启高级功能才有cid
   # Tencent analytics, set APP ID
@@ -277,7 +282,7 @@ web_analytics:  # 网页访问统计
   # 51.la 站点统计 ID
   # 51.la analytics
   # See: https://www.51.la/user/site/index
-  woyaola:  # 51.la 站点统计 ID，参见
+  woyaola:21618851  # 51.la 站点统计 ID，参见
 
   # 友盟/cnzz 站点统计 web_id
   # cnzz analytics
