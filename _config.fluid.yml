@@ -255,7 +255,7 @@ custom_css:
 custom_head: #'<meta name="key" content="value">'
 
 # 自定义底部 HTML 内容（位于 footer 上方），也可用于外部引入 js css 这些操作，注意不要和 post.custom 配置冲突
-custom_html: '<meting-js class="aplayer no-destroy" id="7455077979" server="tencent" type="playlist" order="random" fixed="true" preload="auto" mini="true" listfolded="false" autoplay="true" mutex="true"></meting-js>'
+custom_html: '<meting-js class="aplayer no-destroy" id="7455077979" server="tencent" type="playlist" order="random" fixed="true" preload="auto" mini="true" listfolded="false" autoplay="false" mutex="true"></meting-js>'
 
 # 网页访问统计
 # Analysis of website visitors
