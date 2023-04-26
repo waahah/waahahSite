@@ -113,15 +113,15 @@ live2d:
   tagMode: false
   log: false
   model:
-    use: live2d-widget-model-haru/01 # live2d-widget-model-kesyoban 
+    use: live2d-widget-model-kesyoban # live2d-widget-model-haru/01 
   display:
     position: left  # right
-    width: 220 # 300 
-    height: 440 # 310
+    width: 300 #220
+    height: 310 # 440
   mobile:
     show: false   #是否在手机进行显示
   react:
-    opacity: 0.9 # 1
+    opacity: 1 # 0.9
 
 
 #plugins: hexo-generate-feed

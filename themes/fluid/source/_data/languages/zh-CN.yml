@@ -77,9 +77,13 @@ friends:
   subtitle: '动态'
 
 send:
-  title: '传送阵'
+  title: '传送'
   subtitle: '传送阵'
 
 travellings:
   title: '开往'
   subtitle: '开往'
+
+music:
+  title: '音乐'
+  subtitle: '音乐馆'

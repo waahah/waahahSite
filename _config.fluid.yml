@@ -379,6 +379,7 @@ navbar:
           { key: 'friends', link: '/friends/', icon: "iconfont icon-slack-fill" }
         ]
     }
+    - { key: "music", link: "/music/", icon: "iconfont icon-music" }
     - { key: "message", link: "/message/", icon: "iconfont icon-brush" }
     - { 
         key: 'send',
