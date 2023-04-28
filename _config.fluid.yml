@@ -1014,6 +1014,7 @@ about:
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/waahah", tip: "GitHub主页" }
+    - { class: "iconfont icon-music", link: "https://music.waahah.xyz/", tip: "我的云音乐" }
     - { class: "iconfont icon-weibo-fill", link: "https://weibo.com/waahah", tip: "微博" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
     - { class: "iconfont icon-qq-fill", qrcode: "/img/qq.png" }
@@ -1149,6 +1150,12 @@ links:
       intro: "天气转晴 太阳崭新 我在前进",
       link: "https://naokuoteng.cn/",
       avatar: "https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp"
+    }
+    - {
+      title: "大大的小蜗牛",
+      intro: "机会总是垂青于有准备的人",
+      link: "https://eallion.com",
+      avatar: "https://cdn.jsdelivr.net/gh/eallion/eallion/avatar/eallion.png"
     }
     
 
