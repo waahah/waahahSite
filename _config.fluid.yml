@@ -252,10 +252,10 @@ custom_css:
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
 
 # 自定义 <head> 节点中的 HTML 内容
-custom_head: #'<meta name="key" content="value">'
+custom_head: '<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="29bb4dbd-d74e-42f3-877f-ea8786db41dc";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>' # add crisp chat
 
 # 自定义底部 HTML 内容（位于 footer 上方），也可用于外部引入 js css 这些操作，注意不要和 post.custom 配置冲突
-custom_html: '<meting-js class="aplayer no-destroy" id="7455077979" server="tencent" type="playlist" order="random" fixed="true" preload="auto" mini="true" listfolded="false" autoplay="false" mutex="true"></meting-js>'
+custom_html: '<meting-js class="aplayer no-destroy" id="7455077979" server="tencent" type="playlist" order="random" fixed="true" preload="auto" mini="true" listfolded="false" autoplay="false" mutex="true"></meting-js>' # Aplayer Music
 
 # 网页访问统计
 # Analysis of website visitors
