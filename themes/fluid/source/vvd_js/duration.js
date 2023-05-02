@@ -29,5 +29,5 @@
   update();
   setInterval(update, 1000);
   const startyears = '2021';
-  document.getElementById('years').innerText=`Copyright © ${ startyears } - ${ new Date().getFullYear() }`;
+  document.getElementById('years').innerText=`Copyright © ${ startyears } - ${ String(new Date().getFullYear()) }`;
 })();
