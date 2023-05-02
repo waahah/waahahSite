@@ -472,7 +472,7 @@ footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
   content: '
-    <a href="javascript:void(0)"  target="" rel="nofollow noopener"><span style="color:#ddd;">Copyright © 2021 - 2023</span></a>
+    <a href="javascript:void(0)"  target="" rel="nofollow noopener"><span style="color:#ddd;" id="years">Copyright ©</span></a>
     <i class="iconfont icon-love"></i>
     <a href="https://github.com/waahah/waahahSite" target="_blank" rel="nofollow noopener"><span style="color:#007bff;">无名小站</span></a>
     <div style="font-size: 0.85rem">

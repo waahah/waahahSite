@@ -28,4 +28,5 @@
 
   update();
   setInterval(update, 1000);
+  document.getElementById('years').innerText=`Copyright © 2021 - ${ new Date().getFullYear() }`;
 })();
