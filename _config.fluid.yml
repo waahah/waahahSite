@@ -1157,6 +1157,12 @@ links:
       link: "https://eallion.com",
       avatar: "https://cdn.jsdelivr.net/gh/eallion/eallion/avatar/eallion.png"
     }
+    - {
+      title: "obaby",
+      intro: "逆向分析工程师，APP开发者",
+      link: "https://h4ck.org.cn",
+      avatar: "https://pic.yunshusong.cn/upic/20230514093554.jpg"
+    }
     
 
   # 当成员头像加载失败时，替换为指定图片
