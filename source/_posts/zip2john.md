@@ -2,7 +2,7 @@
 title: john破解zip密码
 date: 2022-11-9 18:59:28
 tags: [zip, zip2john]
-categories: [zip, zip2john]
+categories: [Windows]
 
 ---
 

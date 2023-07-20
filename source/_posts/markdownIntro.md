@@ -2,7 +2,7 @@
 title: 一份简明的 Markdown 笔记与教程
 date: 2022-09-21 02:31:28
 tags: [Markdown, Note,VSCode]
-categories: [Markdown, Note,VSCode]
+categories: [Markdown]
 top: true
 ---
 

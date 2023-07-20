@@ -2,7 +2,7 @@
 title: Git简单使用
 date: 2022-09-21 02:58:36
 tags: [Git, Github]
-categories: [Git, Github]
+categories: [Git]
 ---
 
 ## 前言

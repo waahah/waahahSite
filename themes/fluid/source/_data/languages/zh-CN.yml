@@ -19,13 +19,17 @@ post:
 home:
   title: 首页
 
+essay:
+  title: 文章
+  subtitle: 文章
+
 archive:
   title: 归档
   subtitle: 归档
 
 tag:
-  title: 标签
-  subtitle: 标签
+  title: 词云
+  subtitle: 词云
 
 category:
   title: 分类
@@ -85,5 +89,17 @@ travellings:
   subtitle: '开往'
 
 music:
+  title: '云音'
+  subtitle: '音乐馆'
+
+musichall:
   title: '音乐'
+  subtitle: '音乐馆'
+
+yesplay:
+  title: '乐馆'
+  subtitle: '音乐馆'
+
+playlist:
+  title: '歌单'
   subtitle: '音乐馆'

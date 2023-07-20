@@ -238,6 +238,7 @@ font:
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
   - /js/xiaoxingxing.js  #鼠标跟随小星星
+  - /js/tag-dark-color.js
   - //cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
   - //cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js
 
@@ -247,6 +248,7 @@ custom_css:
   - /css/mac.css #mac代码块
   - /css/custom.css #自定义css
   - /css/APlayer.css #APlayer music
+  - //at.alicdn.com/t/c/font_4175204_jezwwmh6zap.css #自定义阿里图标库
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/daziyanse.css #头部打字机颜色
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
@@ -366,27 +368,41 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { 
+        key: 'essay',
+        icon: 'iconfont icon-book',
+        submenu: [
+          { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" },
+          { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" },
+          { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+        ]
+    }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { 
         key: 'friendcircle',
-        icon: 'iconfont icon-codepen-fill',
+        icon: 'iconfont icon-pengyouquan',
         submenu: [
           { key: 'links', link: '/links/', icon: "iconfont icon-link-fill" },
-          { key: 'friends', link: '/friends/', icon: "iconfont icon-slack-fill" }
+          { key: 'friends', link: '/friends/', icon: "iconfont icon-dongtai" }
         ]
     }
-    - { key: "music", link: "/music/", icon: "iconfont icon-music" }
+    - { 
+        key: 'musichall',
+        icon: 'iconfont icon-wenhua_yinleguan',
+        submenu: [
+          { key: 'music', link: '/music/', icon: "iconfont icon-music" },
+          { key: 'yesplay', link: '/yesplay/', icon: "iconfont icon-wangyiyunyinle" },
+          { key: 'playlist', link: '/playlist/', icon: "iconfont icon-QQyinle" }
+        ]
+    }
     - { key: "message", link: "/message/", icon: "iconfont icon-brush" }
     - { 
         key: 'send',
         icon: 'iconfont icon-map',
         submenu: [
           { key: 'wormhole', link: 'https://www.foreverblog.cn/go.html', icon: "iconfont icon-pinterest-fill" },
-          { key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-tumblr-fill" },
+          { key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-huoche" },
           { key: 'BlogFinder', link: 'https://bf.zzxworld.com/', icon: "iconfont icon-facebook-fill" }
         ]
     }
@@ -394,9 +410,9 @@ navbar:
         key: 'users',
         icon: 'iconfont icon-users',
         submenu: [
-          { key: 'register', link: 'https://waline.waahah.xyz/ui/register', icon: "iconfont icon-addrbook" },
-          { key: 'login', link: 'https://waline.waahah.xyz/ui/login', icon: "iconfont icon-addrbook" },
-          { key: 'admin', link: '/admin/', icon: "iconfont icon-addrcard" }
+          { key: 'register', link: 'https://waline.waahah.xyz/ui/register', icon: "iconfont icon-zhuce" },
+          { key: 'login', link: 'https://waline.waahah.xyz/ui/login', icon: "iconfont icon-denglu" },
+          { key: 'admin', link: '/admin/', icon: "iconfont icon-guanliyuan_jiaoseguanli" }
         ]
     }
 

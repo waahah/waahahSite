@@ -2,7 +2,7 @@
 title: push本地代码到Github出错
 date: 2022-09-21 03:49:28
 tags: [Git, Github]
-categories: [Git, Github]
+categories: [Git]
 
 ---
 
