@@ -1,5 +1,5 @@
 ---
-title:＜artifactId＞spring-boot-maven-plugin＜/artifactId＞报错问题
+title: <artifactId>spring-boot-maven-plugin</artifactId>报错问题
 date: 2022-03-04 14:58:36
 tags: [Java, Maven, springboot]
 categories: [Coding, Java]
