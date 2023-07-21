@@ -248,7 +248,7 @@ custom_css:
   - /css/mac.css #mac代码块
   - /css/custom.css #自定义css
   - /css/APlayer.css #APlayer music
-  - //at.alicdn.com/t/c/font_4175204_jezwwmh6zap.css #自定义阿里图标库
+  //at.alicdn.com/t/c/font_4175204_ccy2asaat6.css #自定义阿里图标库
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/daziyanse.css #头部打字机颜色
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
@@ -1032,7 +1032,7 @@ about:
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/waahah", tip: "GitHub主页" }
-    - { class: "iconfont icon-music", link: "https://music.waahah.xyz/", tip: "我的云音乐" }
+    - { class: "iconfont icon-music", link: "https://yesplay.waahah.xyz/", tip: "我的云音乐" }
     - { class: "iconfont icon-weibo-fill", link: "https://weibo.com/waahah", tip: "微博" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
     - { class: "iconfont icon-qq-fill", qrcode: "/img/qq.png" }
