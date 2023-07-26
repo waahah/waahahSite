@@ -25,6 +25,7 @@
     "hexo-renderer-marked": "^6.1.1",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
+    "hexo-submit-urls-to-search-engine": "^2.1.0",
     "hexo-theme-landscape": "^1.0.0",
     "live2d-widget-model-haru": "^1.0.5",
     "simple-oauth2": "^5.0.0"
