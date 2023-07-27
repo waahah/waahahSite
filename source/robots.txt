@@ -13,6 +13,7 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 # 记得替换成你的域名
-Sitemap: /sitemap.xml
-Sitemap: /baidusitemap.xml
+Sitemap: http://waahah.xyz/sitemap.xml
+Sitemap: http://waahah.xyz/baidusitemap.xml
+
 
