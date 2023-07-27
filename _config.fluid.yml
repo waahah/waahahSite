@@ -249,7 +249,7 @@ custom_css:
   - /css/mac.css #mac代码块
   - /css/custom.css #自定义css
   - /css/APlayer.css #APlayer music
-  - //at.alicdn.com/t/c/font_4175204_r4x81cnm54.css #自定义阿里图标库
+  - //at.alicdn.com/t/c/font_4175204_1yfchjo9gop.css #自定义阿里图标库
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/daziyanse.css #头部打字机颜色
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
@@ -406,7 +406,8 @@ navbar:
           { key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-huoche" },
           { key: 'BlogFinder', link: 'https://bf.zzxworld.com/', icon: "iconfont icon-facebook-fill" },
           { key: 'zhblogs', link: 'https://zhblogs.ohyee.cc/go', icon: "iconfont icon-bokeblogger3" },
-          { key: 'bokelu', link: 'https://boke.lu/sj', icon: "iconfont icon-bokexinwen" }
+          { key: 'bokelu', link: 'https://boke.lu/sj', icon: "iconfont icon-bokexinwen" },
+          { key: 'boyouquan', link: 'https://www.boyouquan.com/planet-shuttle', icon: "iconfont icon-gongzuoliu" }
         ]
     }
     - { 
