@@ -519,9 +519,9 @@ footer:
     # ICP证号
     icp_text: 豫ICP备2023018733号-1
     # 公安备案号，不填则只显示ICP
-    police_text: #京公网安备12345678号
+    police_text: 豫公网安备 41102502000199号
     # 公安备案的编号，用于URL跳转查询
-    police_code: #12345678
+    police_code: 41102502000199
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
