@@ -32,6 +32,6 @@
   },
   "devDependencies": {
     "@types/node": "^20.4.2",
-    "@types/simple-oauth2": "^4.1.0"
+    "@types/simple-oauth2": "^5.0.6"
   }
 }
