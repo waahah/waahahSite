@@ -255,7 +255,7 @@ custom_css:
   - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #侧边滚动条颜色
 
 # 自定义 <head> 节点中的 HTML 内容
-custom_head: '<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="29bb4dbd-d74e-42f3-877f-ea8786db41dc";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>' # add crisp chat
+custom_head: '<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="29bb4dbd-d74e-42f3-877f-ea8786db41dc";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> <script>/*自定义 meting_api*/ var meting_api="https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&auth=:auth&r=:r";</script>' # add crisp chat
 
 # 自定义底部 HTML 内容（位于 footer 上方），也可用于外部引入 js css 这些操作，注意不要和 post.custom 配置冲突
 custom_html: '<meting-js class="aplayer no-destroy" id="7455077979" server="tencent" type="playlist" order="random" fixed="true" preload="auto" mini="true" listfolded="false" autoplay="false" mutex="true"></meting-js>' # Aplayer Music
@@ -402,8 +402,8 @@ navbar:
         key: 'send',
         icon: 'iconfont icon-map',
         submenu: [
-          { key: 'wormhole', link: 'https://www.foreverblog.cn/go.html', icon: "iconfont icon-pinterest-fill" },
-          { key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-huoche" },
+          #{ key: 'wormhole', link: 'https://www.foreverblog.cn/go.html', icon: "iconfont icon-pinterest-fill" },
+          #{ key: 'travellings', link: 'https://www.travellings.cn/go.html', icon: "iconfont icon-huoche" },
           { key: 'BlogFinder', link: 'https://bf.zzxworld.com/', icon: "iconfont icon-facebook-fill" },
           { key: 'zhblogs', link: 'https://zhblogs.ohyee.cc/go', icon: "iconfont icon-bokeblogger3" },
           { key: 'bokelu', link: 'https://boke.lu/sj', icon: "iconfont icon-bokexinwen" },
@@ -533,7 +533,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
 
   # 首页 Banner 使用随机视频
   # true 开启  false 关闭
@@ -567,7 +567,7 @@ index:
 
       # 请求地址
       # Request url
-      url: "https://v1.hitokoto.cn/"
+      url: "https://v1.hitokoto.cn/?c=i&c=j"
 
       # 请求方法
       # Request method
@@ -613,7 +613,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 80
   banner_mask_alpha: 0
 
@@ -967,7 +967,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 80
   banner_mask_alpha: 0
 
@@ -978,7 +978,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 80
   banner_mask_alpha: 0
 
@@ -1007,7 +1007,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 80
   banner_mask_alpha: 0
   tagcloud:
@@ -1024,7 +1024,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 40
   banner_mask_alpha: 0
   avatar: /img/avatar.png
@@ -1056,7 +1056,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 80
   banner_mask_alpha: 0
 
@@ -1067,7 +1067,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 85
   banner_mask_alpha: 0
   # 重定向到首页的延迟(毫秒)
@@ -1081,7 +1081,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://uipv4.zywvvd.com:33030/HexoFiles/new/bg-trans.png
   banner_img_height: 60
   banner_mask_alpha: 0
   # 友链的成员项
