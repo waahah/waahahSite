@@ -41,7 +41,7 @@ categories: [Coding, JavaScript]
 3. 进入扩展程序页面，找到设置
     <img src="https://s2.loli.net/2024/03/20/kIoMuDecSHRyqCJ.jpg" alt="IMG_20240320_084748.jpg" style="zoom:33%;" />
 
-4. 把右上角的开发者模式打开，选择从本地文件导入后缀为 `.crx` 的扩展文件，文件已放到Q群
+4. 把右上角的开发者模式打开，选择从本地文件导入后缀为 `.crx` 的扩展文件，文件已放到Q群，或从此处下载 [密码:51pv](https://wwt.lanzouj.com/ixPzL1rywwjg)
     <img src="https://s2.loli.net/2024/03/20/L9xI24fEJVhqKcW.jpg" alt="IMG_20240320_084902.jpg" style="zoom:33%;" />
 
 5. 选择导入
