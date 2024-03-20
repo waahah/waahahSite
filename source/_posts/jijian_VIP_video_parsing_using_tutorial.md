@@ -1,6 +1,6 @@
 ---
 title: 极简VIP视频解析使用教程
-date: 2024-03-20 10:58:36
+date: 2023-08-07 10:58:36
 tags: [VIP, video]
 categories: [Coding, JavaScript]
 ---
@@ -14,9 +14,9 @@ categories: [Coding, JavaScript]
 
 **地址：[微软edge商店](https://microsoftedge.microsoft.com/addons/detail/%E6%9E%81%E7%AE%80vip%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90/gbbbjenimajbhgeflnikgmmcfhbnngga?hl=zh-CN)  |  [谷歌chrome商店](https://chromewebstore.google.com/detail/%E6%9E%81%E7%AE%80vip%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90/gloimpghnmdnmenclkcbmjifpojoenng?hl=en&authuser=0)**
 
-## 操作步骤
+## 快速入门
 
-快速入门：
+操作步骤：
 
 1. 下载安装扩展
 2. 前往你想要看的视频官网
