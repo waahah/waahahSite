@@ -1,11 +1,9 @@
 <% if (theme.waline.serverURL) { %>
-  <head>
-    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-  </head>
   <div id="waline"></div>
   <script type="text/javascript">
     Fluid.utils.loadComments('#waline', function() {
-      Fluid.utils.createScript('<%= url_join(theme.static_prefix.waline, 'Waline.min.js') %>', function() {
+      Fluid.utils.createCssLink('<%= url_join(theme.static_prefix.waline, 'waline.min.css') %>')
+      Fluid.utils.createScript('<%= url_join(theme.static_prefix.waline, 'waline.min.js') %>', function() {
         var options = Object.assign(
           <%- JSON.stringify(theme.waline || {}) %>,
           {
@@ -15,16 +13,12 @@
             pageview: false // 浏览量统计
           }
         )
-        new Waline(options);
-
-		wa_ccc = "waline-comment-count-container"
-		var i=document.getElementById(wa_ccc)
-		i.style.display = 'inline'
-
+        Waline.init(options);
         Fluid.utils.waitElementVisible('#waline .vcontent', () => {
-          Fluid.plugins.initFancyBox('#waline .vcontent img:not(.vemoji)');
+          var imgSelector = '#waline .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
         })
-
       });
     });
   </script>
